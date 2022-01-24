@@ -1,7 +1,7 @@
 // Work Day Scheduler
 // When the website opens the user can see the date
 var currentDate = $("#currentDay");
-m = moment().format("DD MM YYYY");
+m = moment().format("MM DD YYYY");
 
 currentDate.text(m)
 // The button saves the inputted text to local storage
